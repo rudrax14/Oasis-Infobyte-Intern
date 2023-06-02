@@ -1,0 +1,39 @@
+.text-center {
+  text-align: center;
+}
+
+.bg-red {
+  background: red;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.AC {
+  background: rgb(255, 117, 117);
+}
+
+.equal {
+  background: rgb(110, 209, 255);
+}
+
+.op{
+  background: #b6ff71;
+}
+
+.num{
+  background: rgb(255, 241, 181);
+}
