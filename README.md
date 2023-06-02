@@ -1,1 +1,1 @@
-# -Oasis-Infobyte-Intern
+# Oasis-Infobyte-Intern
