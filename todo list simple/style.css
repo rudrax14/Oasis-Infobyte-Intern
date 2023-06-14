@@ -1,0 +1,134 @@
+body {
+    /* background: rgb(160, 160, 160); */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    /* background-color: #066acd; */
+    background: rgb(118, 255, 118);
+    background: linear-gradient(90deg, rgba(118, 255, 118, 1) 0%, rgba(123, 189, 255, 1) 100%);
+}
+
+h1 {
+    letter-spacing: 10px;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.new-task {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 500px;
+}
+
+.new-task input {
+    padding: 8px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #111111;
+    border: 2px solid #d1d3d4;
+    /* border: 1px solid black; */
+}
+
+.new-task button {
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: #479dff;
+    color: #ffffff;
+    outline: none;
+}
+
+.input {
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.tasks {
+    /* background: orange; */
+    margin-top: 21px;
+
+
+}
+
+.add {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.output-task {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 12px;
+
+
+}
+
+.output-task input {
+    padding: 8px;
+    width: 60%;
+    /* margin-right: 20px; */
+    background-color: #cdfaff;
+    border-radius: 10px;
+    border: 1px solid #939697;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+
+}
+
+.out-input {
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+}
+
+
+.done {
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-right: 11px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #40ad00;
+    color: #ffffff;
+    outline: none;
+}
+
+.delete {
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 12px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #ec0d0d;
+    color: #ffffff;
+    outline: none;
+}
